@@ -42,6 +42,7 @@ This application provides a simple helpdesk system where users can submit suppor
 * Supabase for Authentication and Database
 * Vite as the build tool
 * CSS for styling
+* HTML
 
 ## Live Deployment
 
