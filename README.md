@@ -1,10 +1,10 @@
  **Helpdesk Web Application**
 
- ##Overview
+ ## Overview
 
 This is a web-based Helpdesk application that enables users to submit support tickets and communicate with administrators. Admins can manage, update, and respond to tickets, providing efficient support and tracking.
 
- ##Features
+ ## Features
 
 * Secure user login and authentication via Supabase.
 * Users can submit new tickets with detailed descriptions.
@@ -63,27 +63,27 @@ Explore the deployed version of this app at:
 Users (6 accounts)
 1 admin + 5 staff
 
- **Admin:**
+ ## Admin:
   Email: `admin@fakeeh.edu.sa`
   Password: `admin123`
 
- **Users:**
- ## User1:
+## Users:
+  **User1:**
   Email: `user1@fakeeh.edu.sa`
   Password: `pass123`
 
-  ## User2:
+  **User2:**
   Email: `user2@fakeeh.edu.sa`
   Password: `pass123`
 
-  ## User3:
+  **User3:**
   Email: `user3@fakeeh.edu.sa`
   Password: `pass123`
  
-  ## User4:
+  **User4:**
   Email: `user4@fakeeh.edu.sa`
   Password: `pass123`
 
-  ## User1:
+  **User5:**
   Email: `user5@fakeeh.edu.sa`
   Password: `pass123`
