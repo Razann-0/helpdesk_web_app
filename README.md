@@ -1,89 +1,59 @@
- **Helpdesk Web Application**
 
- ## Overview
+# Helpdesk Web Application
 
-This is a web-based Helpdesk application that enables users to submit support tickets and communicate with administrators. Admins can manage, update, and respond to tickets, providing efficient support and tracking.
+## Overview
 
- ## Features
+This application provides a simple helpdesk system where users can submit support tickets and communicate with administrators. It streamlines issue tracking and resolution by allowing users to open tickets and reply to conversations, while admins manage and update ticket statuses.
 
-* Secure user login and authentication via Supabase.
-* Users can submit new tickets with detailed descriptions.
-* Admin dashboard to view and manage all tickets.
-* Admins can update ticket status: Open, In Progress, Closed.
-* Threaded replies to tickets for clear communication.
-* Role-based views: users see their own tickets; admins see all.
+## Features
 
-**Setup Instructions**
+* Secure user authentication
+* Role-based access (Admins and Users)
+* Create, view, and manage tickets
+* Admins can update ticket status (Open, In Progress, Closed)
+* Comment threads on tickets for replies and discussions
+* Real-time data fetching from Supabase backend
 
- ## Requirements
+## Getting Started (Local Setup)
+
+1. Clone the repository:
+
+   git clone https://github.com/yourusername/helpdesk-web-app.git  
  
-* Node.js and npm installed
-* Supabase account and project with configured tables
+2. Change into the directory:
 
-##Running Locally
+  cd helpdesk-web-app  
+   
+4. Install dependencies:
 
-1. Clone this repository:
+   npm install  
    
-   git clone https://github.com/yourusername/helpdesk-web-app.git
-   cd helpdesk-web-app
-   
-
-3. Install dependencies:
-   
-   npm install
-   
-5. Create a `.env` file in the root directory and add:
-
-   VITE_SUPABASE_URL=your_supabase_project_url
-   VITE_SUPABASE_ANON_KEY=your_supabase_anon_key
-   
+5. Configure your Supabase project and update the connection details in `supabaseClient.ts` or `.js`.
 
 6. Start the development server:
 
-   npm run dev
+   npm run dev  
    
-
-7. Open your browser to `http://localhost:3000` to access the app.
-
+7. Open your browser at `http://localhost:3000` to use the app.
 
 ## Technologies
 
-* React (with functional components and hooks)
-* Supabase (Authentication and Database)
-* Vite (Development server and bundler)
+* React with TypeScript
+* Supabase for Authentication and Database
+* Vite as the build tool
 * CSS for styling
 
-## Live Demo
+## Live Deployment
 
-Explore the deployed version of this app at:
-[https://helpdesk-web-app-puce.vercel.app
-](https://helpdesk-web-app-puce.vercel.app/)
-## Test Credentials
+Try the live app here: [https://helpdesk-web-app-puce.vercel.app/](https://helpdesk-web-app-puce.vercel.app/)
 
-Users (6 accounts)
-1 admin + 5 staff
+## Test User Credentials
 
- ## Admin:
-  Email: `admin@fakeeh.edu.sa`
-  Password: `admin123`
-
-## Users:
-  **User1:**
-  Email: `user1@fakeeh.edu.sa`
-  Password: `pass123`
-
-  **User2:**
-  Email: `user2@fakeeh.edu.sa`
-  Password: `pass123`
-
-  **User3:**
-  Email: `user3@fakeeh.edu.sa`
-  Password: `pass123`
- 
-  **User4:**
-  Email: `user4@fakeeh.edu.sa`
-  Password: `pass123`
-
-  **User5:**
-  Email: `user5@fakeeh.edu.sa`
-  Password: `pass123`
+| Role  | Email                                             | Password |
+| ----- | ------------------------------------------------- | -------- |
+| Admin | [admin@fakeeh.edu.sa](mailto:admin@fakeeh.edu.sa) | admin123 |
+| User1 | [user1@fakeeh.edu.sa](mailto:user1@fakeeh.edu.sa) | pass123  |
+| User2 | [user2@fakeeh.edu.sa](mailto:user2@fakeeh.edu.sa) | pass123  |
+| User3 | [user3@fakeeh.edu.sa](mailto:user3@fakeeh.edu.sa) | pass123  |
+| User4 | [user4@fakeeh.edu.sa](mailto:user4@fakeeh.edu.sa) | pass123  |
+| User5 | [user5@fakeeh.edu.sa](mailto:user5@fakeeh.edu.sa) | pass123  |
